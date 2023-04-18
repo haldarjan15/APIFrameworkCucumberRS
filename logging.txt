@@ -12,11 +12,11 @@ Multiparts:		<none>
 Body:
 {
     "accuracy": 50,
-    "name": "Amit",
+    "name": "Tulsi daas khan",
     "phone_number": "8860408242",
-    "address": "29, side layout, cohen 09",
+    "address": "14-A Mahabali",
     "website": "http://google.com",
-    "language": "English",
+    "language": "Bangla",
     "location": {
         "lat": -38.383494,
         "lng": 33.427362
@@ -27,7 +27,7 @@ Body:
     ]
 }
 HTTP/1.1 200 OK
-Date: Tue, 18 Apr 2023 16:03:04 GMT
+Date: Tue, 18 Apr 2023 17:26:27 GMT
 Server: Apache/2.4.41 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -40,8 +40,8 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "3de3dd130e87042904a45f4925f07fd5",
+    "place_id": "38ceb8a621a75a376b00c7fc4b6b10bc",
     "scope": "APP",
-    "reference": "70a1c68fd8642c0f2e47a7bf548e56ad70a1c68fd8642c0f2e47a7bf548e56ad",
-    "id": "70a1c68fd8642c0f2e47a7bf548e56ad"
+    "reference": "0b02216a812bde7d92c206e277e78f280b02216a812bde7d92c206e277e78f28",
+    "id": "0b02216a812bde7d92c206e277e78f28"
 }

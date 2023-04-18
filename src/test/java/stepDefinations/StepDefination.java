@@ -29,13 +29,13 @@ public class StepDefination extends Utils {
 	
 	TestDataBuild data= new TestDataBuild();
 	
-	@Given("Add Place Payload")
-    public void Add_Place_Payload() throws IOException  {
+	@Given("Add Place Payload {string} {string} {string}")
+	public void add_place_payload(String Name, String Language, String Homeaddresss) throws IOException  {
 		 
 		 res=given().spec(requestSpecification())
 		//RestAssured.baseURI="https://rahulshettyacademy.com";
 		//Response res=given().queryParam("key", "qaclick123")
-		.body(data.addPlacePayLoad());
+		.body(data.addPlacePayLoad(Name,Language,Homeaddresss));
 		
     }
 
